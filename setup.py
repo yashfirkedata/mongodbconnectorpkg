@@ -7,9 +7,9 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "0.0.4"
 REPO_NAME = "mongodbconnectorpkg"
-PKG_NAME= "databaseautomation"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+PKG_NAME= "Mongo-Connect"
+AUTHOR_USER_NAME = "yashfirkedata"
+AUTHOR_EMAIL = "yashfirke.edu@gmail.com"
 
 setup(
     name=PKG_NAME,
@@ -24,5 +24,5 @@ setup(
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
-    packages=find_packages(where="src"),
+    packages=find_packages(where="src")
     )
